@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.abid{
+    border: 2px solid black;
+    background-image:url("pa3.jpg");
+    height: 100%; 
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+ ul {
+    border: 3px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: green;
+  }
+  
+  .nav .about
+  {   color: black;
+      background-color:goldenrod;
+  }
+  .navdei .home
+  {   color: black;
+      background-color:goldenrod;
+  }
+  
+ .center h1{
+    position: absolute;
+    top: 10%;
+    left:25%;
+    font: bold;
+    color:darkorange;
+   }
+   .center h2{
+    position: absolute;
+    top: 20%;
+    left:30%;
+    font: bold;
+    color: lawngreen;
+   }
+   .center p{
+    position: absolute;
+    top: 30%;
+    left:5%;
+    right: 20%;
+    font: bold;
+    color:white;
+   }
+   
+   .center .buttons{
+       margin: 55px 450px;
+   }
+   .button{
+       position: absolute;
+       top: 50%;
+       left: 30%;
+       height: 50px;
+       width: 150px;
+       font-size: 18px;
+       font-weight: bold;
+       color:black;
+       background-color: green;
+   }
+   .button1{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    background-color:green;
+}

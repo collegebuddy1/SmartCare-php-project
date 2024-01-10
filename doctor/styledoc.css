@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.abid{
+    border: 2px solid black;
+    background-image:url("doc.jpg");
+    height: 100%; 
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.navdoc ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navdoc li {
+    float: left;
+  }
+  
+  .navdoc li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 20px 35px;
+    font: bold;
+    text-decoration: none;
+  }
+  
+  .navdoc li a:hover {
+    background-color: orange;
+  }
+  .navdoc .home
+  {   color: black;
+      background-color:goldenrod;
+  }
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:600px;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+th{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 6px;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+tr:nth-child(odd){
+    background-color:lightblue;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+th:nth-child(odd)
+{
+    background-color: teal;
+}
+th:nth-child(even)
+{
+    background-color: teal;
+}
